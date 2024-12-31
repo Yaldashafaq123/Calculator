@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style_cal.css">
+</head>
+<body>
+    <div id="calculator"> 
+        <input id="display" readonly>
+        <div id="keys"> 
+            <button class="btn sym" onclick="appentTodisplay('+')">+</button>
+            <button class="btn" onclick="appentTodisplay('7')">7</button>
+            <button class="btn" onclick="appentTodisplay('8')">8</button>
+            <button class="btn" onclick="appentTodisplay('9')">9</button>
+            <button class="btn sym" onclick="appentTodisplay('-')">-</button>
+            <button class="btn" onclick="appentTodisplay('4')">4</button>
+            <button class="btn" onclick="appentTodisplay('5')">5</button>
+            <button class="btn" onclick="appentTodisplay('6')">6</button>
+            <button class="btn sym" onclick="appentTodisplay('*')">*</button>
+            <button class="btn" onclick="appentTodisplay('3')">3</button>
+            <button class="btn" onclick="appentTodisplay('2')">2</button>
+            <button class="btn" onclick="appentTodisplay('1')">1</button>
+            <button class="btn sym" onclick="appentTodisplay('/')">/</button>
+            <button class="btn sym" onclick="calculate()">=</button>
+            <button class="btn" onclick="appentTodisplay('0')">0</button>
+            <button class="btn sym" onclick="clearDisplay()">C</button>
+        </div>
+    </div>
+    <script src="cal_app.js"></script>
+</body>
+</html>
