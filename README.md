@@ -1,7 +1,5 @@
 #Author Yalda Shafaq
-1. Project Title
-Calculator App A brief and clear title for your project.
-
+1. Project Title {Calculator}
 3. Description
 Write a short description of what your calculator app does. Example:
 A simple calculator application that performs basic arithmetic operations such as addition, subtraction, multiplication, and division. Built with [your tech stack, e.g., HTML, CSS, JavaScript, Python, etc.].
